@@ -7,6 +7,5 @@ this.person1 = person1;
 this.person2 = person2;
 }
 public void PrintWelcomeMessage() {
-System.out.print("Git lab by: " + person1 + " and " + person2);
-}
+System.out.printf("Git lab by: %s and %s", person1, person2);}
 }
